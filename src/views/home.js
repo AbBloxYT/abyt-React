@@ -138,7 +138,7 @@ const Home = (props) => {
           <div className="home-container07">
             <h1 className="home-text12">
               <span>
-                epic gaming
+                Epic Gaming
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -146,7 +146,7 @@ const Home = (props) => {
                 />
               </span>
               <br></br>
-              <span>montage!</span>
+              <span>Montage!</span>
             </h1>
             <PrimaryButton button="Get Started"></PrimaryButton>
           </div>
@@ -263,7 +263,9 @@ const Home = (props) => {
             />
             <h5 className="home-text26 headline5">Better compoents</h5>
             <span className="home-text27">
-              I present amongus! Like among us? Then try this to all fans.
+              <span>Cant play minecrat then try this</span>
+              <br></br>
+              <br></br>
             </span>
           </div>
           <div className="home-container13">
@@ -272,8 +274,8 @@ const Home = (props) => {
               src="/playground_assets/06.svg"
               className="home-image10"
             />
-            <h5 className="home-text28 headline5">Well organized</h5>
-            <span className="home-text29">
+            <h5 className="home-text31 headline5">Well organized</h5>
+            <span className="home-text32">
               I present amongus! Like among us? Then try this to all fans.
             </span>
           </div>
@@ -287,7 +289,7 @@ const Home = (props) => {
               src="/playground_assets/quote-mark.svg"
               className="home-image11"
             />
-            <h1 className="home-text30 headline2">People&apos;s reviews</h1>
+            <h1 className="home-text33 headline2">People&apos;s reviews</h1>
             <span>these peoples gave this rating!</span>
             <div className="home-container16">
               <div className="home-container17">
@@ -298,10 +300,9 @@ const Home = (props) => {
                     className="home-image12"
                   />
                   <div className="home-container19">
-                    <span className="home-text32 lead1">
+                    <span className="home-text35 lead1">
                       comment on my videos to get a chance of a shoutout here!
                     </span>
-                    <span className="subtitle1">Floyd Miles</span>
                   </div>
                 </div>
               </div>
@@ -313,15 +314,15 @@ const Home = (props) => {
                 <div className="home-container23">
                   <div className="home-container24">
                     <img
-                      src="https://guzuv.ml/playground_assets/catpic.png"
                       alt="image"
+                      src="https://guzuv.ml/playground_assets/catpic.png"
                       className="home-image13"
                     />
-                    <span className="home-text34 lead1">
+                    <span className="home-text36 lead1">
                       &quot;it&apos;s a bit rough, but overall cool website!
                       3.5/5.&quot;
                     </span>
-                    <span className="home-text35 subtitle1">Guzuv</span>
+                    <span className="home-text37 subtitle1">Guzuv</span>
                     <a
                       href="https://gzuuv.ml/"
                       target="_blank"
@@ -348,7 +349,7 @@ const Home = (props) => {
                     className="home-image15"
                   />
                   <div className="home-container28">
-                    <span className="home-text36">
+                    <span className="home-text38">
                       <span className="lead1">is very ok, is epic!</span>
                       <br></br>
                       <span>4.5/5</span>
@@ -373,7 +374,7 @@ const Home = (props) => {
       <div className="home-achievements">
         <div className="home-container29">
           <h2>1 year of my Website.</h2>
-          <span>With my super powers we have reached this</span>
+          <span>With my teams super powers we have reached this</span>
         </div>
         <div className="home-container30">
           <div className="home-container31">
@@ -402,8 +403,8 @@ const Home = (props) => {
         </div>
         <div className="home-container34">
           <h3 className="headline3">Headline</h3>
-          <span className="home-text45 lead1">
-            <span className="home-text46">
+          <span className="home-text47 lead1">
+            <span className="home-text48">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst
               risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in
@@ -416,12 +417,12 @@ const Home = (props) => {
       <div className="home-feature2">
         <div className="home-container35">
           <h2 className="headline2">
-            <span className="home-text48">
+            <span className="home-text50">
               Enter the world of all fashion trends
             </span>
           </h2>
-          <span className="home-text49 lead1">
-            <span className="home-text50">
+          <span className="home-text51 lead1">
+            <span className="home-text52">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst
               risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in
