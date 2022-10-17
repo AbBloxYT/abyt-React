@@ -3,7 +3,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import StoreBanner from '../components/store-banner'
-import PrimaryButton from '../components/primary-button'
 import StatsCard from '../components/stats-card'
 import LinkIconButton from '../components/link-icon-button'
 import './home.css'
@@ -26,11 +25,14 @@ const Home = (props) => {
           </div>
           <div className="home-menu">
             <span className="home-text">About</span>
-            <span className="home-text01">Products</span>
-            <span className="home-text02">Pricing</span>
-            <span className="home-text03">Blog</span>
-            <span className="home-text04">Jobs</span>
-            <span className="home-text05">More</span>
+            <span className="home-text01">Discord</span>
+            <span className="home-text02">Youtube</span>
+            <span className="home-text03">Guzuv</span>
+            <span className="home-text04">
+              <span className="home-text05">Merch</span>
+              <br></br>
+            </span>
+            <span className="home-text07">More</span>
             <svg viewBox="0 0 1024 1024" className="home-icon">
               <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
             </svg>
@@ -62,12 +64,12 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-mid">
-            <span className="home-text06">About</span>
-            <span className="home-text07">Products</span>
-            <span className="home-text08">Pricing</span>
-            <span className="home-text09">Blog</span>
-            <span className="home-text10">Jobs</span>
-            <span className="home-text11">More</span>
+            <span className="home-text08">About</span>
+            <span className="home-text09">Products</span>
+            <span className="home-text10">Pricing</span>
+            <span className="home-text11">Blog</span>
+            <span className="home-text12">Jobs</span>
+            <span className="home-text13">More</span>
           </div>
           <div className="home-bot">
             <div className="home-container02">
@@ -136,7 +138,7 @@ const Home = (props) => {
         <div className="home-blur-background"></div>
         <div className="home-hero">
           <div className="home-container07">
-            <h1 className="home-text12">
+            <h1 className="home-text14">
               <span>
                 Epic Gaming
                 <span
@@ -148,7 +150,9 @@ const Home = (props) => {
               <br></br>
               <span>Montage!</span>
             </h1>
-            <PrimaryButton button="Get Started"></PrimaryButton>
+            <div className="home-container08">
+              <button className="home-button button">Get Started</button>
+            </div>
           </div>
           <img
             alt="image"
@@ -205,102 +209,26 @@ const Home = (props) => {
         </a>
         <div className="home-divider1"></div>
       </div>
-      <div className="home-features">
-        <h2 className="headline2">Games</h2>
-        <span className="home-text17">
-          here are some games of mine (credit to guzuv for the games!)
-        </span>
-        <div className="home-features1">
-          <div className="home-container08">
-            <img
-              alt="image"
-              src="/playground_assets/01.svg"
-              className="home-image05"
-            />
-            <h5 className="home-text18 headline5">Robust workflow</h5>
-            <span className="home-text19">
-              I present amongus! Like among us? Then try this to all fans.
-            </span>
-          </div>
-          <div className="home-container09">
-            <img
-              alt="image"
-              src="/playground_assets/02.svg"
-              className="home-image06"
-            />
-            <h5 className="home-text20 headline5">Among us</h5>
-            <span className="home-text21">
-              I present amongus! Like among us? Then try this to all fans.
-            </span>
-          </div>
+      <div className="home-testimonials">
+        <div className="home-container09">
           <div className="home-container10">
             <img
               alt="image"
-              src="/playground_assets/03.svg"
-              className="home-image07"
-            />
-            <h5 className="home-text22 headline5">User friendly</h5>
-            <span className="home-text23">
-              I present amongus! Like among us? Then try this to all fans.
-            </span>
-          </div>
-          <div className="home-container11">
-            <img
-              alt="image"
-              src="/playground_assets/04.svg"
-              className="home-image08"
-            />
-            <h5 className="home-text24 headline5">Multiple layouts</h5>
-            <span className="home-text25">
-              I present amongus! Like among us? Then try this to all fans.
-            </span>
-          </div>
-          <div className="home-container12">
-            <img
-              alt="image"
-              src="/playground_assets/05.svg"
-              className="home-image09"
-            />
-            <h5 className="home-text26 headline5">Better compoents</h5>
-            <span className="home-text27">
-              <span>Cant play minecrat then try this</span>
-              <br></br>
-              <br></br>
-            </span>
-          </div>
-          <div className="home-container13">
-            <img
-              alt="image"
-              src="/playground_assets/06.svg"
-              className="home-image10"
-            />
-            <h5 className="home-text31 headline5">Well organized</h5>
-            <span className="home-text32">
-              I present amongus! Like among us? Then try this to all fans.
-            </span>
-          </div>
-        </div>
-      </div>
-      <div className="home-testimonials">
-        <div className="home-container14">
-          <div className="home-container15">
-            <img
-              alt="image"
               src="/playground_assets/quote-mark.svg"
-              className="home-image11"
+              className="home-image05"
             />
-            <h1 className="home-text33 headline2">People&apos;s reviews</h1>
+            <h1 className="home-text18 headline2">People&apos;s reviews</h1>
             <span>these peoples gave this rating!</span>
-            <div className="home-container16">
-              <div className="home-container17">
-                <div className="home-container18">
+            <div className="home-container11">
+              <div className="home-container12">
+                <div className="home-container13">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
-                    className="home-image12"
+                    className="home-image06"
                   />
-                  <div className="home-container19">
-                    <span className="home-text35 lead1">
+                  <div className="home-container14">
+                    <span className="home-text20 lead1">
                       comment on my videos to get a chance of a shoutout here!
                     </span>
                   </div>
@@ -308,21 +236,21 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container20">
-            <div className="home-container21">
-              <div className="home-container22">
-                <div className="home-container23">
-                  <div className="home-container24">
+          <div className="home-container15">
+            <div className="home-container16">
+              <div className="home-container17">
+                <div className="home-container18">
+                  <div className="home-container19">
                     <img
                       alt="image"
                       src="https://guzuv.ml/playground_assets/catpic.png"
-                      className="home-image13"
+                      className="home-image07"
                     />
-                    <span className="home-text36 lead1">
+                    <span className="home-text21 lead1">
                       &quot;it&apos;s a bit rough, but overall cool website!
                       3.5/5.&quot;
                     </span>
-                    <span className="home-text37 subtitle1">Guzuv</span>
+                    <span className="home-text22 subtitle1">Guzuv</span>
                     <a
                       href="https://gzuuv.ml/"
                       target="_blank"
@@ -335,21 +263,21 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container25">
-              <div className="home-container26">
+            <div className="home-container20">
+              <div className="home-container21">
                 <img
                   alt="illya image"
                   src="https://yt3.ggpht.com/yGQFVDKehE6fikUhodoJhEA7wP-X63DH-8j9DkvXlecAUjeLXs2PQQ8uRTBL1nWUHNIxtRMLVQ=s88-c-k-c0x00ffffff-no-rj"
-                  className="home-image14"
+                  className="home-image08"
                 />
-                <div className="home-container27">
+                <div className="home-container22">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
-                    className="home-image15"
+                    className="home-image09"
                   />
-                  <div className="home-container28">
-                    <span className="home-text38">
+                  <div className="home-container23">
+                    <span className="home-text23">
                       <span className="lead1">is very ok, is epic!</span>
                       <br></br>
                       <span>4.5/5</span>
@@ -372,12 +300,12 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-achievements">
-        <div className="home-container29">
+        <div className="home-container24">
           <h2>1 year of my Website.</h2>
           <span>With my teams super powers we have reached this</span>
         </div>
-        <div className="home-container30">
-          <div className="home-container31">
+        <div className="home-container25">
+          <div className="home-container26">
             <StatsCard
               number="10,000+"
               image_src="/playground_assets/01.svg"
@@ -389,52 +317,41 @@ const Home = (props) => {
               description="Users"
             ></StatsCard>
           </div>
-          <div className="home-container32"></div>
+          <div className="home-container27"></div>
         </div>
       </div>
       <div className="home-feature1">
-        <div className="home-container33">
-          <img
-            alt="image"
-            src="/playground_assets/iphonex-1200w.png"
-            image_src="/playground_assets/iphonex-1200w.png"
-            className="home-image16"
-          />
-        </div>
-        <div className="home-container34">
-          <h3 className="headline3">Headline</h3>
-          <span className="home-text47 lead1">
-            <span className="home-text48">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst
-              risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in
-              suscipit non. Non commodo volutpat, pharetra, vel.
-            </span>
+        <img
+          src="https://images.unsplash.com/photo-1656639969809-ebc544c96955?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHJvYmxveHxlbnwwfHx8fDE2NjYwMjM5MDc&amp;ixlib=rb-1.2.1&amp;w=700"
+          alt="image"
+          className="home-image10"
+        />
+        <div className="home-container28">
+          <span className="home-text31">
+            Follow me on Roblox and Support me by Subscribeing to my my Channell
+            it will help a ton and its Free Thats all have fun!
           </span>
           <LinkIconButton text="Get Started"></LinkIconButton>
         </div>
       </div>
       <div className="home-feature2">
-        <div className="home-container35">
-          <h2 className="headline2">
-            <span className="home-text50">
-              Enter the world of all fashion trends
+        <div className="home-container29">
+          <h2>
+            <span className="headline2">
+              Enter the world of People and HAVE FUN!
             </span>
+            <br></br>
           </h2>
-          <span className="home-text51 lead1">
-            <span className="home-text52">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst
-              risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in
-              suscipit non. Non commodo volutpat, pharetra, vel.
-            </span>
+          <span className="home-text35">
+            <br></br>
+            <br></br>
           </span>
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1535157412991-2ef801c1748b?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+          src="https://images.unsplash.com/photo-1535157412991-2ef801c1748b?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=1200"
           image_src="/playground_assets/iphonex-1200w.png"
-          className="home-image17"
+          className="home-image11"
         />
       </div>
     </div>
