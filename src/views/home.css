@@ -979,6 +979,12 @@
   padding-bottom: 58px;
 }
 @media(max-width: 991px) {
+  .home-container23 {
+    height: 147px;
+  }
+  .home-testimonials {
+    height: 778px;
+  }
   .home-text86 {
     top: 39px;
     right: -36px;
