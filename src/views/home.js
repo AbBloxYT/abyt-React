@@ -206,14 +206,10 @@ const Home = (props) => {
               </h1>
               <div className="home-container09">
                 <a href="#games" className="home-link09 button">
-                  Get Started
+                  play games
                 </a>
               </div>
             </div>
-            <iframe
-              src="https://organizations.minnit.chat/703427239445554/Main"
-              className="home-iframe"
-            ></iframe>
           </div>
         </div>
       </div>
