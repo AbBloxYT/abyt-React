@@ -32,14 +32,16 @@ const Home = (props) => {
           <a href="#games" className="home-link">
             Games
           </a>
-          <a
-            href="https://discord.gg/A2ya5Sk2ap"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="home-link01"
-          >
-            Discord
-          </a>
+          <div className="home-container01">
+            <a
+              href="https://discord.gg/A2ya5Sk2ap"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link01"
+            >
+              Discord
+            </a>
+          </div>
           <a
             href="https://www.youtube.com/channel/UChTBftFlCQLReSg57pMOOFg"
             target="_blank"
@@ -56,9 +58,9 @@ const Home = (props) => {
           >
             Guzuv
           </a>
-          <div className="home-container01">
-            <div className="home-container02">
-              <div className="home-container03">
+          <div className="home-container02">
+            <div className="home-container03">
+              <div className="home-container04">
                 <a
                   href="https://r.mtdv.me/watch?v=ablocks"
                   target="_blank"
@@ -70,7 +72,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container04"></div>
+          <div className="home-container05"></div>
           <div data-type="BurgerMenu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-menu">
               <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -103,14 +105,14 @@ const Home = (props) => {
             <span className="home-text05">More</span>
           </div>
           <div className="home-bot">
-            <div className="home-container05">
+            <div className="home-container06">
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link05"
               >
-                <div className="home-container06">
+                <div className="home-container07">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="home-icon05"
@@ -125,7 +127,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
                 className="home-link06"
               >
-                <div className="home-container07">
+                <div className="home-container08">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="home-icon07"
@@ -140,7 +142,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
                 className="home-link07"
               >
-                <div className="home-container08">
+                <div className="home-container09">
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
                     className="home-icon09"
@@ -155,7 +157,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
                 className="home-link08"
               >
-                <div className="home-container09">
+                <div className="home-container10">
                   <svg viewBox="0 0 1024 1024" className="home-icon11">
                     <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                   </svg>
@@ -173,8 +175,8 @@ const Home = (props) => {
           className="home-turquoise-cirble"
         />
         <img
-          alt="image"
           src="/playground_assets/purple-circle.svg"
+          alt="image"
           className="home-purple-circle"
         />
         <img
@@ -188,64 +190,73 @@ const Home = (props) => {
           className="home-right"
         />
         <div className="home-hero">
-          <div className="home-container10">
-            <h1 className="home-text06">
-              <span>
-                Epic Gaming
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <br></br>
-              <span>Montage!</span>
-            </h1>
+          <div className="home-container11">
+            <div className="home-container12">
+              <h1 className="home-text06">
+                <span>
+                  Epic Gaming
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+                <span>Montage!</span>
+              </h1>
+            </div>
             <a href="#games" className="home-link09 button">
               play games
             </a>
           </div>
-          <div className="home-container11">
-            <div className="home-container12">
-              <div className="home-container13"></div>
+          <div className="home-container13">
+            <div className="home-container14">
+              <div className="home-container15"></div>
             </div>
           </div>
           <img
-            alt="pastedImage"
-            src="/playground_assets/pastedimage-myb-900w.png"
-            className="home-pasted-image"
+            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700h.png"
+            alt="image"
+            className="home-image02"
           />
         </div>
       </div>
-      <div className="home-container14">
-        <div className="home-container15"></div>
+      <div className="home-container16">
+        <div className="home-container17"></div>
       </div>
       <div id="games" className="home-features">
-        <div className="home-container16"></div>
-        <div className="home-container17">
-          <span className="home-text10">
-            Here are some games of mine (credit to guzuv for the games!)Click
-            the image above text to enter game
-          </span>
-          <a
-            href="https://www.google.com/search?q=%22ab+blox%22&amp;biw=1470&amp;bih=750&amp;ei=dmBNY_3dIL_JptQPsbyCWA&amp;ved=0ahUKEwj98KLptuf6AhW_pIkEHTGeAAsQ4dUDCA4&amp;uact=5&amp;oq=%22ab+blox%22&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwA0oECEEYAEoECEYYAFCOBViOBWCKCGgBcAF4AIAB3wGIAd8BkgEDMi0xmAEAoAEByAEIwAEB&amp;sclient=gws-wiz&amp;safe=active&amp;ssui=on"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="home-link10"
-          >
-            <img
-              alt="image"
-              src="/playground_assets/logo-3.svg"
-              className="home-image02"
-            />
-          </a>
-          <h2>
-            <br></br>
-            <br></br>
-          </h2>
+        <div className="home-container18"></div>
+        <div className="home-container19">
+          <img
+            src="/playground_assets/pastedimage-myb-200h.png"
+            alt="image"
+            className="home-image03"
+          />
+          <div className="home-container20">
+            <span className="home-text10">
+              Here are some games of mine (credit to guzuv for the games!)Click
+              the image above text to enter game
+            </span>
+            <a
+              href="https://www.google.com/search?q=%22ab+blox%22&amp;biw=1470&amp;bih=750&amp;ei=dmBNY_3dIL_JptQPsbyCWA&amp;ved=0ahUKEwj98KLptuf6AhW_pIkEHTGeAAsQ4dUDCA4&amp;uact=5&amp;oq=%22ab+blox%22&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwA0oECEEYAEoECEYYAFCOBViOBWCKCGgBcAF4AIAB3wGIAd8BkgEDMi0xmAEAoAEByAEIwAEB&amp;sclient=gws-wiz&amp;safe=active&amp;ssui=on"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link10"
+            >
+              <img
+                alt="image"
+                src="/playground_assets/logo-3.svg"
+                className="home-image04"
+              />
+            </a>
+            <h2>
+              <br></br>
+              <br></br>
+            </h2>
+          </div>
         </div>
         <div className="home-features1">
-          <div className="home-container18">
+          <div className="home-container21">
             <a
               href="https://28klotlucas2.github.io/Mario64webgl/"
               target="_blank"
@@ -255,7 +266,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/01.svg"
-                className="home-image03"
+                className="home-image05"
               />
             </a>
             <h5 className="home-text14 headline5">Mario 64</h5>
@@ -265,7 +276,7 @@ const Home = (props) => {
               <br></br>
             </span>
           </div>
-          <div className="home-container19">
+          <div className="home-container22">
             <a
               href="https://guzuv.github.io/guzEmu/"
               target="_blank"
@@ -275,30 +286,31 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/04.svg"
-                className="home-image04"
+                className="home-image06"
               />
             </a>
             <h5 className="home-text19 headline5">G.B.A.</h5>
             <span className="home-text20">
               <span>Game boy advanced</span>
               <br></br>
+              <span>with games</span>
               <br></br>
             </span>
           </div>
-          <div className="home-container20">
+          <div className="home-container23">
             <img
               alt="image"
               src="/playground_assets/03.svg"
-              className="home-image05"
+              className="home-image07"
             />
-            <h5 className="home-text24 headline5">Coming soon</h5>
-            <span className="home-text25">
+            <h5 className="home-text25 headline5">Coming soon</h5>
+            <span className="home-text26">
               <span>Just wait this game still working</span>
               <br></br>
               <span>on it.</span>
             </span>
           </div>
-          <div className="home-container21">
+          <div className="home-container24">
             <a
               href="https://among-us-online-fan-remake.1tim.repl.co/"
               target="_blank"
@@ -308,15 +320,15 @@ const Home = (props) => {
               <img
                 alt="Among us"
                 src="/playground_assets/02.svg"
-                className="home-image06"
+                className="home-image08"
               />
             </a>
-            <h5 className="home-text29 headline5">Among us</h5>
-            <span className="home-text30">
+            <h5 className="home-text30 headline5">Among us</h5>
+            <span className="home-text31">
               I present amongus! Like among us? Then try this to all fans.
             </span>
           </div>
-          <div className="home-container22">
+          <div className="home-container25">
             <a
               href="https://hyper-network.me/"
               target="_blank"
@@ -326,24 +338,24 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/playground_assets/05.svg"
-                className="home-image07"
+                className="home-image09"
               />
             </a>
-            <h5 className="home-text31 headline5">Minecraft</h5>
-            <span className="home-text32">
-              <span>Cant play minecrat then try this</span>
+            <h5 className="home-text32 headline5">Minecraft</h5>
+            <span className="home-text33">
+              <span>Cant play minecraft then try this</span>
               <br></br>
               <br></br>
             </span>
           </div>
-          <div className="home-container23">
+          <div className="home-container26">
             <img
               alt="image"
               src="/playground_assets/06.svg"
-              className="home-image08"
+              className="home-image10"
             />
-            <h5 className="home-text36 headline5">Coming soon</h5>
-            <span className="home-text37">
+            <h5 className="home-text37 headline5">Coming soon</h5>
+            <span className="home-text38">
               <span>is gonna be a good game</span>
               <br></br>
             </span>
@@ -358,30 +370,30 @@ const Home = (props) => {
           <img
             alt="image"
             src="/playground_assets/logo-5.svg"
-            className="home-image09"
+            className="home-image11"
           />
         </a>
       </div>
       <div className="home-testimonials">
-        <div className="home-container24">
-          <div className="home-container25">
+        <div className="home-container27">
+          <div className="home-container28">
             <img
               alt="image"
               src="/playground_assets/quote-mark.svg"
-              className="home-image10"
+              className="home-image12"
             />
-            <h1 className="home-text40 headline2">People&apos;s reviews</h1>
+            <h1 className="home-text41 headline2">People&apos;s reviews</h1>
             <span>these peoples gave this rating!</span>
-            <div className="home-container26">
-              <div className="home-container27">
-                <div className="home-container28">
+            <div className="home-container29">
+              <div className="home-container30">
+                <div className="home-container31">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
-                    className="home-image11"
+                    className="home-image13"
                   />
-                  <div className="home-container29">
-                    <span className="home-text42">
+                  <div className="home-container32">
+                    <span className="home-text43">
                       <span className="lead1">
                         comment on my videos to get a chance of a shoutout here!
                       </span>
@@ -424,21 +436,21 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container30">
-            <div className="home-container31">
-              <div className="home-container32">
-                <div className="home-container33">
-                  <div className="home-container34">
+          <div className="home-container33">
+            <div className="home-container34">
+              <div className="home-container35">
+                <div className="home-container36">
+                  <div className="home-container37">
                     <img
                       alt="image"
                       src="https://guzuv.ml/playground_assets/catpic.png"
-                      className="home-image12"
+                      className="home-image14"
                     />
-                    <span className="home-text77 lead1">
+                    <span className="home-text78 lead1">
                       &quot;it&apos;s a bit rough, but overall cool website!
                       7/12.&quot;
                     </span>
-                    <span className="home-text78 subtitle1">Guzuv</span>
+                    <span className="home-text79 subtitle1">Guzuv</span>
                     <a
                       href="https://guzuv.ml/"
                       target="_blank"
@@ -451,21 +463,21 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container35">
-              <div className="home-container36">
+            <div className="home-container38">
+              <div className="home-container39">
                 <img
                   alt="illya image"
                   src="https://yt3.ggpht.com/yGQFVDKehE6fikUhodoJhEA7wP-X63DH-8j9DkvXlecAUjeLXs2PQQ8uRTBL1nWUHNIxtRMLVQ=s88-c-k-c0x00ffffff-no-rj"
-                  className="home-image13"
+                  className="home-image15"
                 />
-                <div className="home-container37">
+                <div className="home-container40">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
-                    className="home-image14"
+                    className="home-image16"
                   />
-                  <div className="home-container38">
-                    <span className="home-text79">
+                  <div className="home-container41">
+                    <span className="home-text80">
                       <span className="lead1">is very ok, is epic!</span>
                       <br></br>
                       <span>4.5/5</span>
@@ -488,12 +500,12 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-achievements">
-        <div className="home-container39">
+        <div className="home-container42">
           <h2>1 year of my Website.</h2>
           <span>With my teams super powers we have reached this</span>
         </div>
-        <div className="home-container40">
-          <div className="home-container41">
+        <div className="home-container43">
+          <div className="home-container44">
             <StatsCard
               number="10,000+"
               image_src="/playground_assets/01.svg"
@@ -505,31 +517,31 @@ const Home = (props) => {
               description="Users"
             ></StatsCard>
           </div>
-          <div className="home-container42"></div>
+          <div className="home-container45"></div>
         </div>
       </div>
       <div className="home-feature1">
-        <div className="home-container43">
-          <span className="home-text87">
+        <div className="home-container46">
+          <span className="home-text88">
             Follow me on Roblox and Support me by Subscribeing to my my Channell
             it will help a ton and its Free Thats all have fun!
           </span>
           <img
             alt="image"
             src="/playground_assets/sdfghjfdsdfgh-200h.png"
-            className="home-image15"
+            className="home-image17"
           />
         </div>
       </div>
       <div className="home-feature2">
-        <div className="home-container44">
+        <div className="home-container47">
           <h2>
             <span className="headline2">
               Enter the world of Gamers and HAVE FUN!
             </span>
             <br></br>
           </h2>
-          <span className="home-text91">
+          <span className="home-text92">
             <br></br>
             <br></br>
           </span>
@@ -538,13 +550,13 @@ const Home = (props) => {
           alt="image"
           src="/playground_assets/wqfhihcgashuvs%20dcvugisfuvvufvbhvbyuhu8ft-1100w.jpeg"
           image_src="/playground_assets/iphonex-1100w.png"
-          className="home-image16"
+          className="home-image18"
         />
       </div>
       <img
         alt="image"
         src="/playground_assets/wqfhihcgashuvs%20dcvugisfuvvufvbhvbyuhu8ft-1100w.jpeg"
-        className="home-image17"
+        className="home-image19"
       />
     </div>
   )
