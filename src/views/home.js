@@ -218,45 +218,31 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-container14">
-        <div className="home-container15">
+        <div className="home-container15"></div>
+      </div>
+      <div id="games" className="home-features">
+        <div className="home-container16"></div>
+        <div className="home-container17">
+          <span className="home-text10">
+            Here are some games of mine (credit to guzuv for the games!)Click
+            the image above text to enter game
+          </span>
           <a
-            href="https://www.bing.com/search?q=ab+blox+yt&amp;form=QBLH&amp;sp=-1&amp;pq=ab+blox+yt&amp;sc=10-10&amp;qs=n&amp;sk=&amp;cvid=64AEBF6143F24A25AB33C4D86EC5EA84&amp;ghsh=0&amp;ghacc=0&amp;ghpl="
+            href="https://www.google.com/search?q=%22ab+blox%22&amp;biw=1470&amp;bih=750&amp;ei=dmBNY_3dIL_JptQPsbyCWA&amp;ved=0ahUKEwj98KLptuf6AhW_pIkEHTGeAAsQ4dUDCA4&amp;uact=5&amp;oq=%22ab+blox%22&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwA0oECEEYAEoECEYYAFCOBViOBWCKCGgBcAF4AIAB3wGIAd8BkgEDMi0xmAEAoAEByAEIwAEB&amp;sclient=gws-wiz&amp;safe=active&amp;ssui=on"
             target="_blank"
             rel="noreferrer noopener"
             className="home-link10"
           >
             <img
               alt="image"
-              src="/playground_assets/logo-5.svg"
+              src="/playground_assets/logo-3.svg"
               className="home-image02"
             />
           </a>
-        </div>
-        <a
-          href="https://www.google.com/search?q=%22ab+blox%22&amp;biw=1470&amp;bih=750&amp;ei=dmBNY_3dIL_JptQPsbyCWA&amp;ved=0ahUKEwj98KLptuf6AhW_pIkEHTGeAAsQ4dUDCA4&amp;uact=5&amp;oq=%22ab+blox%22&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwA0oECEEYAEoECEYYAFCOBViOBWCKCGgBcAF4AIAB3wGIAd8BkgEDMi0xmAEAoAEByAEIwAEB&amp;sclient=gws-wiz&amp;safe=active&amp;ssui=on"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="home-link11"
-        >
-          <img
-            alt="image"
-            src="/playground_assets/logo-3.svg"
-            className="home-image03"
-          />
-        </a>
-      </div>
-      <div id="games" className="home-features">
-        <div className="home-container16">
-          <div className="home-container17">
-            <span className="home-text10">
-              Here are some games of mine (credit to guzuv for the games!)Click
-              the image above text to enter game
-            </span>
-            <h2>
-              <br></br>
-              <br></br>
-            </h2>
-          </div>
+          <h2>
+            <br></br>
+            <br></br>
+          </h2>
         </div>
         <div className="home-features1">
           <div className="home-container18">
@@ -264,12 +250,12 @@ const Home = (props) => {
               href="https://28klotlucas2.github.io/Mario64webgl/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link12"
+              className="home-link11"
             >
               <img
                 alt="image"
                 src="/playground_assets/01.svg"
-                className="home-image04"
+                className="home-image03"
               />
             </a>
             <h5 className="home-text14 headline5">Mario 64</h5>
@@ -284,12 +270,12 @@ const Home = (props) => {
               href="https://guzuv.github.io/guzEmu/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link13"
+              className="home-link12"
             >
               <img
                 alt="image"
                 src="/playground_assets/04.svg"
-                className="home-image05"
+                className="home-image04"
               />
             </a>
             <h5 className="home-text19 headline5">G.B.A.</h5>
@@ -303,7 +289,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="/playground_assets/03.svg"
-              className="home-image06"
+              className="home-image05"
             />
             <h5 className="home-text24 headline5">Coming soon</h5>
             <span className="home-text25">
@@ -317,12 +303,12 @@ const Home = (props) => {
               href="https://among-us-online-fan-remake.1tim.repl.co/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link14"
+              className="home-link13"
             >
               <img
                 alt="Among us"
                 src="/playground_assets/02.svg"
-                className="home-image07"
+                className="home-image06"
               />
             </a>
             <h5 className="home-text29 headline5">Among us</h5>
@@ -335,12 +321,12 @@ const Home = (props) => {
               href="https://hyper-network.me/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link15"
+              className="home-link14"
             >
               <img
                 alt="image"
                 src="/playground_assets/05.svg"
-                className="home-image08"
+                className="home-image07"
               />
             </a>
             <h5 className="home-text31 headline5">Minecraft</h5>
@@ -354,7 +340,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="/playground_assets/06.svg"
-              className="home-image09"
+              className="home-image08"
             />
             <h5 className="home-text36 headline5">Coming soon</h5>
             <span className="home-text37">
@@ -363,6 +349,18 @@ const Home = (props) => {
             </span>
           </div>
         </div>
+        <a
+          href="https://www.bing.com/search?q=ab+blox+yt&amp;form=QBLH&amp;sp=-1&amp;pq=ab+blox+yt&amp;sc=10-10&amp;qs=n&amp;sk=&amp;cvid=64AEBF6143F24A25AB33C4D86EC5EA84&amp;ghsh=0&amp;ghacc=0&amp;ghpl="
+          target="_blank"
+          rel="noreferrer noopener"
+          className="home-link15"
+        >
+          <img
+            alt="image"
+            src="/playground_assets/logo-5.svg"
+            className="home-image09"
+          />
+        </a>
       </div>
       <div className="home-testimonials">
         <div className="home-container24">
