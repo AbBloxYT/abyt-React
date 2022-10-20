@@ -440,7 +440,7 @@ const Home = (props) => {
                     </span>
                     <span className="home-text78 subtitle1">Guzuv</span>
                     <a
-                      href="https://gzuuv.ml/"
+                      href="https://guzuv.ml/"
                       target="_blank"
                       rel="noreferrer noopener"
                       className="home-link16"
