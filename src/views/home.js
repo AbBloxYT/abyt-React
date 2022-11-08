@@ -297,7 +297,7 @@ const Home = (props) => {
           </div>
           <div className="home-container23">
             <a
-              href="https://smashkarts.bziu.repl.co/"
+              href="https://sword-io-game.herokuapp.com/"
               target="_blank"
               rel="noreferrer noopener"
               className="home-link13"
@@ -308,11 +308,12 @@ const Home = (props) => {
                 className="home-image06"
               />
             </a>
-            <h5 className="home-text28">Smash Karts</h5>
-            <span className="home-text29">
-              <span>Smash kart unblocked is finally</span>
+            <h5 className="home-text28">
+              <span>Sword Balttle</span>
               <br></br>
-              <span>HERE PEEPS &lt;ENJOY&gt;</span>
+            </h5>
+            <span className="home-text31">
+              <span>Sword battle comanse victory</span>
               <br></br>
             </span>
           </div>
