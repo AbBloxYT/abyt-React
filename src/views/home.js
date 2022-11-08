@@ -73,7 +73,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-container05"></div>
-          <div data-type="BurgerMenu" className="home-burger-menu">
+          <div data-role="BurgerMenu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-menu">
               <path d="M810.667 725.333h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
               <path d="M810.667 426.667h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
@@ -81,7 +81,7 @@ const Home = (props) => {
             </svg>
           </div>
         </header>
-        <div data-type="MobileMenu" className="home-mobile-menu">
+        <div data-role="MobileMenu" className="home-mobile-menu">
           <div className="home-top">
             <div className="home-logo1">
               <img
@@ -90,7 +90,7 @@ const Home = (props) => {
                 className="home-image01"
               />
             </div>
-            <div data-type="CloseMobileMenu" className="home-close-menu">
+            <div data-role="CloseMobileMenu" className="home-close-menu">
               <svg viewBox="0 0 1024 1024" className="home-icon03">
                 <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
               </svg>
@@ -296,16 +296,24 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container23">
-            <img
-              alt="image"
-              src="/playground_assets/03.svg"
-              className="home-image06"
-            />
-            <h5 className="home-text28 headline5">Coming soon</h5>
+            <a
+              href="https://smashkarts.bziu.repl.co/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link13"
+            >
+              <img
+                alt="image"
+                src="/playground_assets/03.svg"
+                className="home-image06"
+              />
+            </a>
+            <h5 className="home-text28">Smash Karts</h5>
             <span className="home-text29">
-              <span>Just wait this game still working</span>
+              <span>Smash kart unblocked is finally</span>
               <br></br>
-              <span>on it.</span>
+              <span>HERE PEEPS &lt;ENJOY&gt;</span>
+              <br></br>
             </span>
           </div>
           <div className="home-container24">
@@ -313,7 +321,7 @@ const Home = (props) => {
               href="https://among-us-online-fan-remake.1tim.repl.co/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link13"
+              className="home-link14"
             >
               <img
                 alt="Among us"
@@ -321,8 +329,8 @@ const Home = (props) => {
                 className="home-image07"
               />
             </a>
-            <h5 className="home-text33 headline5">Among us</h5>
-            <span className="home-text34">
+            <h5 className="home-text34 headline5">Among us</h5>
+            <span className="home-text35">
               I present amongus! Like among us? Then try this to all fans.
             </span>
           </div>
@@ -331,7 +339,7 @@ const Home = (props) => {
               href="https://hyper-network.me/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link14"
+              className="home-link15"
             >
               <img
                 alt="image"
@@ -339,8 +347,8 @@ const Home = (props) => {
                 className="home-image08"
               />
             </a>
-            <h5 className="home-text35 headline5">Minecraft</h5>
-            <span className="home-text36">
+            <h5 className="home-text36 headline5">Minecraft</h5>
+            <span className="home-text37">
               <span>Cant play minecraft then try this</span>
               <br></br>
               <br></br>
@@ -352,8 +360,8 @@ const Home = (props) => {
               src="/playground_assets/06.svg"
               className="home-image09"
             />
-            <h5 className="home-text40 headline5">Coming soon</h5>
-            <span className="home-text41">
+            <h5 className="home-text41 headline5">Coming soon</h5>
+            <span className="home-text42">
               <span>is gonna be a good game</span>
               <br></br>
             </span>
@@ -363,7 +371,7 @@ const Home = (props) => {
           href="https://www.bing.com/search?q=ab+blox+yt&amp;form=QBLH&amp;sp=-1&amp;pq=ab+blox+yt&amp;sc=10-10&amp;qs=n&amp;sk=&amp;cvid=64AEBF6143F24A25AB33C4D86EC5EA84&amp;ghsh=0&amp;ghacc=0&amp;ghpl="
           target="_blank"
           rel="noreferrer noopener"
-          className="home-link15"
+          className="home-link16"
         >
           <img
             alt="image"
@@ -380,7 +388,7 @@ const Home = (props) => {
               src="/playground_assets/quote-mark.svg"
               className="home-image11"
             />
-            <h1 className="home-text44 headline2">People&apos;s reviews</h1>
+            <h1 className="home-text45 headline2">People&apos;s reviews</h1>
             <span>these peoples gave this rating!</span>
             <div className="home-container29">
               <div className="home-container30">
@@ -391,7 +399,7 @@ const Home = (props) => {
                     className="home-image12"
                   />
                   <div className="home-container32">
-                    <span className="home-text46">
+                    <span className="home-text47">
                       <span className="lead1">
                         comment on my videos to get a chance of a shoutout here!
                       </span>
@@ -444,16 +452,16 @@ const Home = (props) => {
                       src="https://guzuv.ml/playground_assets/catpic.png"
                       className="home-image13"
                     />
-                    <span className="home-text81 lead1">
+                    <span className="home-text82 lead1">
                       &quot;it&apos;s a bit rough, but overall cool website!
                       7/12.&quot;
                     </span>
-                    <span className="home-text82 subtitle1">Guzuv</span>
+                    <span className="home-text83 subtitle1">Guzuv</span>
                     <a
                       href="https://guzuv.ml/"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link16"
+                      className="home-link17"
                     >
                       website here
                     </a>
@@ -475,7 +483,7 @@ const Home = (props) => {
                     className="home-image15"
                   />
                   <div className="home-container41">
-                    <span className="home-text83">
+                    <span className="home-text84">
                       <span className="lead1">is very ok, is epic!</span>
                       <br></br>
                       <span>4.5/5</span>
@@ -486,7 +494,7 @@ const Home = (props) => {
                       href="https://www.youtube.com/channel/UCs1Qb2-lTeFUi-rqV6c1lVg/videos?view=0&amp;sort=p&amp;flow=grid"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link17"
+                      className="home-link18"
                     >
                       youtube channel here
                     </a>
@@ -520,7 +528,7 @@ const Home = (props) => {
       </div>
       <div className="home-feature1">
         <div className="home-container46">
-          <span className="home-text91">
+          <span className="home-text92">
             Follow me on Roblox and Support me by Subscribeing to my my Channell
             it will help a ton and its Free Thats all have fun!
           </span>
@@ -539,7 +547,7 @@ const Home = (props) => {
             </span>
             <br></br>
           </h2>
-          <span className="home-text95">
+          <span className="home-text96">
             <br></br>
             <br></br>
           </span>
