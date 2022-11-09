@@ -43,14 +43,23 @@ const Games = (props) => {
             <div className="games-container05">
               <h5 className="games-text09">Coming soon</h5>
               <span className="games-text10">
-                <span>Just wait this game still working</span>
+                <span>
+                  Just wait this game
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>still</span>
+                <span> working</span>
                 <br></br>
                 <span>on it.</span>
               </span>
             </div>
             <div className="games-container06">
-              <h5 className="games-text14">
-                <span className="games-text15">Among</span>
+              <h5 className="games-text16">
+                <span className="games-text17">Among</span>
                 <span className="Headline5">
                   <span
                     dangerouslySetInnerHTML={{
@@ -58,16 +67,16 @@ const Games = (props) => {
                     }}
                   />
                 </span>
-                <span className="games-text17">us</span>
+                <span className="games-text19">us</span>
               </h5>
-              <span className="games-text18">
+              <span className="games-text20">
                 I present amongus! Like among us? Then try this to all fans.
               </span>
             </div>
           </div>
           <div className="games-container07">
-            <h5 className="games-text19">G.B.A.</h5>
-            <span className="games-text20">
+            <h5 className="games-text21">G.B.A.</h5>
+            <span className="games-text22">
               <span>Game boy advanced</span>
               <br></br>
               <span>with games</span>
@@ -75,20 +84,20 @@ const Games = (props) => {
             </span>
           </div>
           <div className="games-container08">
-            <h5 className="games-text25">Coming soon</h5>
-            <span className="games-text26">
+            <h5 className="games-text27">Coming soon</h5>
+            <span className="games-text28">
               <span>is gonna be a good game</span>
               <br></br>
             </span>
           </div>
         </div>
         <div className="games-container09">
-          <h5 className="games-text29">Minecraft</h5>
-          <span className="games-text30">
-            <span className="games-text31">
+          <h5 className="games-text31">Minecraft</h5>
+          <span className="games-text32">
+            <span className="games-text33">
               Cant play minecraft then try this
             </span>
-            <br className="games-text32"></br>
+            <br className="games-text34"></br>
             <br></br>
           </span>
         </div>
