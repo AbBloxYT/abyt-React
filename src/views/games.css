@@ -1,0 +1,198 @@
+.games-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.games-features {
+  width: 763px;
+  height: 1057px;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: relative;
+  max-width: 1110px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.games-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.games-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+}
+.games-text {
+  font-size: 22px;
+  max-width: 500px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+}
+.games-features1 {
+  height: 384px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.games-container3 {
+  width: 320px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.games-link {
+  display: contents;
+}
+.games-image {
+  width: var(--dl-size-size-doubleunit);
+  height: var(--dl-size-size-doubleunit);
+  object-fit: cover;
+  text-decoration: none;
+}
+.games-text04 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.games-text05 {
+  text-align: center;
+}
+.games-container4 {
+  width: 320px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.games-link1 {
+  display: contents;
+}
+.games-image1 {
+  width: var(--dl-size-size-doubleunit);
+  height: var(--dl-size-size-doubleunit);
+  object-fit: cover;
+  text-decoration: none;
+}
+.games-text09 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.games-text10 {
+  text-align: center;
+}
+.games-container5 {
+  width: 320px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.games-image2 {
+  width: var(--dl-size-size-doubleunit);
+  height: var(--dl-size-size-doubleunit);
+  object-fit: cover;
+}
+.games-text15 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.games-text16 {
+  text-align: center;
+}
+.games-container6 {
+  width: 320px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.games-link2 {
+  display: contents;
+}
+.games-image3 {
+  width: var(--dl-size-size-doubleunit);
+  height: var(--dl-size-size-doubleunit);
+  object-fit: cover;
+  text-decoration: none;
+}
+.games-text20 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.games-text21 {
+  color: var(--dl-color-gray-900);
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+}
+.games-container7 {
+  width: 320px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.games-link3 {
+  display: contents;
+}
+.games-image4 {
+  width: var(--dl-size-size-doubleunit);
+  height: var(--dl-size-size-doubleunit);
+  object-fit: cover;
+  text-decoration: none;
+}
+.games-text22 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.games-text23 {
+  text-align: center;
+}
+.games-container8 {
+  width: 320px;
+  margin: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.games-image5 {
+  width: var(--dl-size-size-doubleunit);
+  height: var(--dl-size-size-doubleunit);
+  object-fit: cover;
+}
+.games-text27 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.games-text28 {
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .games-container8 {
+    height: 147px;
+  }
+}

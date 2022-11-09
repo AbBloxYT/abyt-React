@@ -4,14 +4,14 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import Home from './views/home'
-import Page from './views/page'
+import Games from './views/games'
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route component={Home} exact path="/" />
-        <Route component={Page} exact path="/page" />
+        <Route component={Games} exact path="/games" />
       </div>
     </Router>
   )
