@@ -1,24 +1,33 @@
 .games-container {
   width: 100%;
   display: flex;
+  z-index: 100;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
+  border-color: var(--dl-color-gray-900);
+  border-style: dashed;
+  border-width: 3px;
   flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://wallpapers.com/images/high/best-minecraft-piglin-and-hoglin-64v0cdf5wuwqr5z1.webp');
 }
 .games-features {
+  top: -12px;
+  left: 243px;
   width: 763px;
   height: 1057px;
   display: flex;
   padding: var(--dl-space-space-doubleunit);
   z-index: 100;
-  position: relative;
+  position: absolute;
   max-width: 1110px;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.games-container1 {
+.games-container01 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -27,7 +36,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.games-container2 {
+.games-container02 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -43,156 +52,178 @@
   text-align: center;
   font-weight: 500;
 }
+.games-container03 {
+  top: 180px;
+  right: -45px;
+  width: 320px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.games-text04 {
+  color: #edeeef;
+  font-size: 24px;
+  margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.games-text05 {
+  color: #ebecf3;
+  text-align: center;
+}
 .games-features1 {
+  top: 170px;
+  left: 32px;
   height: 384px;
   display: flex;
-  position: relative;
+  position: absolute;
   flex-wrap: wrap;
-  margin-top: var(--dl-space-space-doubleunit);
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
-.games-container3 {
+.games-container04 {
+  flex: 0 0 auto;
   width: 320px;
-  margin: var(--dl-space-space-halfunit);
+  height: auto;
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
 }
-.games-link {
-  display: contents;
-}
-.games-image {
-  width: var(--dl-size-size-doubleunit);
-  height: var(--dl-size-size-doubleunit);
-  object-fit: cover;
-  text-decoration: none;
-}
-.games-text04 {
-  margin-top: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.games-text05 {
-  text-align: center;
-}
-.games-container4 {
+.games-container05 {
+  left: -69px;
   width: 320px;
-  margin: var(--dl-space-space-halfunit);
+  bottom: -535px;
   display: flex;
-  position: relative;
+  position: absolute;
   align-items: center;
   flex-direction: column;
-}
-.games-link1 {
-  display: contents;
-}
-.games-image1 {
-  width: var(--dl-size-size-doubleunit);
-  height: var(--dl-size-size-doubleunit);
-  object-fit: cover;
-  text-decoration: none;
 }
 .games-text09 {
+  color: #f2f4f9;
+  font-size: 24px;
   margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
 }
 .games-text10 {
   text-align: center;
 }
-.games-container5 {
+.games-container06 {
+  top: -192px;
+  left: -62px;
   width: 320px;
-  margin: var(--dl-space-space-halfunit);
   display: flex;
-  position: relative;
+  position: absolute;
   align-items: center;
+  padding-right: 2px;
   flex-direction: column;
 }
-.games-image2 {
-  width: var(--dl-size-size-doubleunit);
-  height: var(--dl-size-size-doubleunit);
-  object-fit: cover;
-}
-.games-text15 {
+.games-text14 {
+  font-size: 24px;
   margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
-}
-.games-text16 {
-  text-align: center;
-}
-.games-container6 {
-  width: 320px;
-  margin: var(--dl-space-space-halfunit);
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-}
-.games-link2 {
-  display: contents;
-}
-.games-image3 {
-  width: var(--dl-size-size-doubleunit);
-  height: var(--dl-size-size-doubleunit);
-  object-fit: cover;
+  text-transform: none;
   text-decoration: none;
 }
-.games-text20 {
-  margin-top: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-unit);
+.games-text15 {
+  color: #e9eaee;
 }
-.games-text21 {
-  color: var(--dl-color-gray-900);
+.games-text17 {
+  color: #e8e9ee;
+}
+.games-text18 {
+  color: #eeeff3;
   font-style: normal;
   text-align: center;
   font-weight: 400;
 }
-.games-container7 {
+.games-container07 {
+  right: -483px;
   width: 320px;
-  margin: var(--dl-space-space-halfunit);
+  bottom: -32px;
   display: flex;
+  position: absolute;
   align-items: center;
   flex-direction: column;
 }
-.games-link3 {
-  display: contents;
-}
-.games-image4 {
-  width: var(--dl-size-size-doubleunit);
-  height: var(--dl-size-size-doubleunit);
-  object-fit: cover;
+.games-text19 {
+  color: #e5e6ec;
+  font-size: 24px;
+  margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
   text-decoration: none;
 }
-.games-text22 {
-  margin-top: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.games-text23 {
+.games-text20 {
+  color: #f4f5fb;
   text-align: center;
 }
-.games-container8 {
+.games-container08 {
+  right: -480px;
   width: 320px;
-  margin: var(--dl-space-space-halfunit);
+  bottom: -319px;
   display: flex;
-  position: relative;
+  position: absolute;
   align-items: center;
   flex-direction: column;
 }
-.games-image5 {
-  width: var(--dl-size-size-doubleunit);
-  height: var(--dl-size-size-doubleunit);
-  object-fit: cover;
-}
-.games-text27 {
+.games-text25 {
+  color: #eff0f3;
+  font-size: 24px;
   margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 600;
   margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
 }
-.games-text28 {
+.games-text26 {
+  color: #e8e9ee;
   text-align: center;
 }
+.games-container09 {
+  top: 462px;
+  left: -40px;
+  width: 320px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.games-text29 {
+  color: #f7f7f9;
+  font-size: 24px;
+  margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.games-text30 {
+  text-align: center;
+}
+.games-text31 {
+  color: #d6d8e2;
+}
+.games-text32 {
+  color: #d6d8e2;
+}
 @media(max-width: 991px) {
-  .games-container8 {
+  .games-container08 {
     height: 147px;
   }
 }
