@@ -78,21 +78,21 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.largeLabel {
+.LargeLabel {
   font-size: 20px;
   font-family: Inter;
   font-weight: 600;
   text-transform: none;
   text-decoration: none;
 }
-.body2 {
+.Body2 {
   font-size: 14px;
   font-family: Inter;
   font-weight: 400;
   text-transform: none;
   text-decoration: none;
 }
-.lead1 {
+.Lead1 {
   font-size: 18px;
   font-family: Inter;
   font-weight: 400;
@@ -100,14 +100,14 @@
   text-transform: none;
   text-decoration: none;
 }
-.headline6 {
+.Headline6 {
   font-size: 20px;
   font-family: Inter;
   font-weight: 500;
   text-transform: none;
   text-decoration: none;
 }
-.body1 {
+.Body1 {
   font-size: 16px;
   font-family: Inter;
   font-weight: 400;
@@ -115,7 +115,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.lead2 {
+.Lead2 {
   font-size: 14px;
   font-family: Inter;
   font-weight: 500;
@@ -123,77 +123,77 @@
   text-transform: none;
   text-decoration: none;
 }
-.headline3 {
+.Headline3 {
   font-size: 40px;
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
   text-decoration: none;
 }
-.headline2 {
+.Headline2 {
   font-size: 48px;
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
   text-decoration: none;
 }
-.headline5 {
+.Headline5 {
   font-size: 24px;
   font-family: Inter;
   font-weight: 600;
   text-transform: none;
   text-decoration: none;
 }
-.subtitle2 {
+.Subtitle2 {
   font-size: 18px;
   font-family: Inter;
   font-weight: 500;
   text-transform: none;
   text-decoration: none;
 }
-.smallLabel {
+.SmallLabel {
   font-size: 12px;
   font-family: Inter;
   font-weight: 600;
   text-transform: none;
   text-decoration: none;
 }
-.mediumLabel {
+.MediumLabel {
   font-size: 14px;
   font-family: Inter;
   font-weight: 600;
   text-transform: none;
   text-decoration: none;
 }
-.headline1 {
+.Headline1 {
   font-size: 72px;
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
   text-decoration: none;
 }
-.badgeLabel {
+.BadgeLabel {
   font-size: 20px;
   font-family: Nanum Pen Script;
   font-weight: 400;
   text-transform: none;
   text-decoration: none;
 }
-.subtitle1 {
+.Subtitle1 {
   font-size: 18px;
   font-family: Inter;
   font-weight: 700;
   text-transform: none;
   text-decoration: none;
 }
-.headline4 {
+.Headline4 {
   font-size: 28px;
   font-family: Inter;
   font-weight: 800;
   text-transform: none;
   text-decoration: none;
 }
-.capitalised {
+.Capitalised {
   font-size: 14px;
   font-family: Inter;
   font-weight: 800;

@@ -13,8 +13,8 @@ const StatsCard = (props) => {
         className="stats-card-image"
       />
       <div className="stats-card-container1">
-        <h1 className="headline4">{props.number}</h1>
-        <span className="body1">{props.description}</span>
+        <h1 className="Headline4">{props.number}</h1>
+        <span className="Body1">{props.description}</span>
       </div>
     </div>
   )

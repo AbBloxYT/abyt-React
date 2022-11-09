@@ -45,7 +45,7 @@ const Page = (props) => {
                 className="page-image"
               />
             </a>
-            <h5 className="page-text04 headline5">Mario 64</h5>
+            <h5 className="page-text04 Headline5">Mario 64</h5>
             <span className="page-text05">
               <span>Mario 64 really fun</span>
               <br></br>
@@ -65,7 +65,7 @@ const Page = (props) => {
                 className="page-image1"
               />
             </a>
-            <h5 className="page-text09 headline5">G.B.A.</h5>
+            <h5 className="page-text09 Headline5">G.B.A.</h5>
             <span className="page-text10">
               <span>Game boy advanced</span>
               <br></br>
@@ -79,7 +79,7 @@ const Page = (props) => {
               src="/playground_assets/03.svg"
               className="page-image2"
             />
-            <h5 className="page-text15 headline5">Coming soon</h5>
+            <h5 className="page-text15 Headline5">Coming soon</h5>
             <span className="page-text16">
               <span>Just wait this game still working</span>
               <br></br>
@@ -99,7 +99,7 @@ const Page = (props) => {
                 className="page-image3"
               />
             </a>
-            <h5 className="page-text20 headline5">Among us</h5>
+            <h5 className="page-text20 Headline5">Among us</h5>
             <span className="page-text21">
               I present amongus! Like among us? Then try this to all fans.
             </span>
@@ -117,7 +117,7 @@ const Page = (props) => {
                 className="page-image4"
               />
             </a>
-            <h5 className="page-text22 headline5">Minecraft</h5>
+            <h5 className="page-text22 Headline5">Minecraft</h5>
             <span className="page-text23">
               <span>Cant play minecraft then try this</span>
               <br></br>
@@ -130,7 +130,7 @@ const Page = (props) => {
               src="/playground_assets/06.svg"
               className="page-image5"
             />
-            <h5 className="page-text27 headline5">Coming soon</h5>
+            <h5 className="page-text27 Headline5">Coming soon</h5>
             <span className="page-text28">
               <span>is gonna be a good game</span>
               <br></br>
