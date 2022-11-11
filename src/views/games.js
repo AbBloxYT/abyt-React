@@ -9,6 +9,10 @@ const Games = (props) => {
     <div className="games-container">
       <Helmet>
         <title>games - AbApps</title>
+        <meta
+          name="description"
+          content="For greater good of gamers at school just try and u ......"
+        />
         <meta property="og:title" content="games - AbApps" />
         <meta
           property="og:description"

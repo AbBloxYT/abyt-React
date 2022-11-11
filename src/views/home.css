@@ -469,9 +469,6 @@
   position: absolute;
   object-fit: cover;
 }
-.home-text13 {
-  font-size: 45px;
-}
 .home-container16 {
   flex: 0 0 auto;
   width: auto;
@@ -504,22 +501,20 @@
 .home-container18 {
   flex: 1;
   display: flex;
+  position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 .home-container19 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.home-container20 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
+}
+.home-text13 {
+  font-size: 45px;
 }
 .home-feature1 {
   flex: 0 0 auto;
@@ -530,11 +525,18 @@
   position: relative;
   max-width: 1110px;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container20 {
+  display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: center;
 }
 .home-container21 {
   flex: 1;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   margin: var(--dl-space-space-doubleunit);
   display: flex;
   position: relative;
@@ -542,16 +544,23 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text14 {
-  top: 32px;
-  right: 23px;
-  position: absolute;
-  max-width: 400px;
+.home-container22 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 137px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 .home-image03 {
   width: 487px;
   height: 137px;
   object-fit: cover;
+}
+.home-text14 {
+  max-width: 400px;
+  margin-top: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
 }
 .home-testimonials {
   width: 100%;
@@ -565,7 +574,7 @@
   justify-content: center;
   background-color: var(--dl-color-turquoise-100);
 }
-.home-container22 {
+.home-container23 {
   display: flex;
   flex-wrap: wrap;
   max-width: 1100px;
@@ -573,7 +582,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-container23 {
+.home-container24 {
   flex: 0 0 auto;
   display: flex;
   position: relative;
@@ -594,7 +603,7 @@
   z-index: 100;
   max-width: 500px;
 }
-.home-container24 {
+.home-container25 {
   flex: 0 0 auto;
   width: 350px;
   display: flex;
@@ -604,7 +613,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-container25 {
+.home-container26 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -615,7 +624,7 @@
   flex-direction: column;
   background-image: linear-gradient(180deg, rgb(241, 242, 181) 0.00%,rgb(16, 207, 232) 100.00%);
 }
-.home-container26 {
+.home-container27 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -632,7 +641,7 @@
   bottom: auto;
   object-fit: cover;
 }
-.home-container27 {
+.home-container28 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -641,21 +650,21 @@
 .home-text17 {
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.home-container28 {
+.home-container29 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   margin-left: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.home-container29 {
+.home-container30 {
   width: 350px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.home-container30 {
+.home-container31 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -666,7 +675,7 @@
   flex-direction: column;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
-.home-container31 {
+.home-container32 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -675,7 +684,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-container32 {
+.home-container33 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -696,14 +705,14 @@
   color: rgb(0, 255, 218);
   text-decoration:  underline   none;
 }
-.home-container33 {
+.home-container34 {
   width: 300px;
   display: flex;
   margin-top: var(--dl-space-space-doubleunit);
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container34 {
+.home-container35 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -718,7 +727,7 @@
   width: 100px;
   object-fit: cover;
 }
-.home-container35 {
+.home-container36 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -735,7 +744,7 @@
   bottom: auto;
   object-fit: cover;
 }
-.home-container36 {
+.home-container37 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -765,45 +774,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container37 {
+.home-container38 {
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-navlink2 {
-  top: 100px;
-  left: 298px;
-  color: var(--dl-color-gray-white);
-  width: 200px;
-  height: 68px;
-  position: absolute;
-  font-size: 14px;
-  align-self: center;
-  transition: 0.3s;
-  font-family: Inter;
-  font-weight: 600;
-  padding-top: 12px;
-  border-width: 0px;
-  padding-left: 32px;
-  border-radius: var(--dl-radius-radius-radius6);
-  padding-right: 32px;
-  padding-bottom: 12px;
-  text-transform: none;
-  text-decoration: none;
-  background-image: linear-gradient(270deg, rgb(252, 0, 255) 0%, rgb(0, 219, 222) 100%);
-}
-.home-navlink2:hover {
-  background-color: var(--dl-color-purple-900);
-}
-.home-navlink2:active {
-  background-color: var(--dl-color-purple-1000);
-}
 .home-text60 {
-  font-size: 20px;
-}
-.home-text61 {
   width: 800px;
   height: 258px;
   font-size: 2rem;
@@ -816,7 +794,7 @@
   position: absolute;
   object-fit: cover;
 }
-.home-text65 {
+.home-text66 {
   max-width: 400px;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -849,13 +827,13 @@
   border-color: #000000;
   border-width: 3px;
 }
-.home-container38 {
+.home-container39 {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-text71 {
+.home-text72 {
   max-width: 400px;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-doubleunit);

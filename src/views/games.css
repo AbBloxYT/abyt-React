@@ -11,12 +11,13 @@
 }
 .games-features {
   width: 763px;
-  height: 2207px;
+  height: 2266px;
   display: flex;
   padding: var(--dl-space-space-doubleunit);
   z-index: 100;
   max-width: 1110px;
   align-items: center;
+  margin-bottom: 132px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -137,6 +138,7 @@
   flex-direction: column;
 }
 .games-text13 {
+  font-size: 45px;
   margin-top: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
