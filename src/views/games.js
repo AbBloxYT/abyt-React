@@ -94,7 +94,7 @@ const Games = (props) => {
         <div className="games-features1">
           <div className="games-container04">
             <div className="games-container05">
-              <h5 className="games-text13 Headline5">Coming soon</h5>
+              <h5 className="games-text13">Scroll up !!</h5>
             </div>
             <div className="games-container06">
               <a
@@ -135,7 +135,7 @@ const Games = (props) => {
           </div>
         </div>
         <div className="games-container09">
-          <h5 className="games-text28 Headline5">Minecraft</h5>
+          <h5 className="games-text28">Minecraft</h5>
           <span className="games-text29">
             <span>Cant play minecraft then try this</span>
             <br></br>
