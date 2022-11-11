@@ -28,16 +28,64 @@ const Games = (props) => {
           </h2>
         </div>
         <span className="games-text03">
-          Yo Peeps I just updated with new Games and more HAVE FUN PEEPS!
+          <span>
+            Yo Peeps I just updated with new Games and more HAVE FUN PEEPS!
+          </span>
+          <br></br>
+          <span>(Click on the image above the Titles to Play)</span>
+          <br></br>
         </span>
-        <img
-          src="/playground_assets/02.svg"
-          alt="image"
-          className="games-image"
-        />
+        <a
+          href="https://guzuv.github.io/guzEmu/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="games-link"
+        >
+          <img
+            alt="image"
+            src="/playground_assets/02.svg"
+            className="games-image"
+          />
+        </a>
+        <a
+          href="https://lekug.github.io/tn6pS9dCf37xAhkJv/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="games-link1"
+        >
+          <img
+            alt="image"
+            src="/playground_assets/02.svg"
+            className="games-image1"
+          />
+        </a>
         <div className="games-container03">
-          <h5 className="games-text04 Headline5">Mario 64</h5>
-          <span className="games-text05">
+          <a
+            href="https://28klotlucas2.github.io/Mario64webgl/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="games-link2"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/01.svg"
+              className="games-image2"
+            />
+          </a>
+          <a
+            href="https://1v1lol.56306.repl.co"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="games-link3"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/01.svg"
+              className="games-image3"
+            />
+          </a>
+          <h5 className="games-text08 Headline5">Mario 64</h5>
+          <span className="games-text09">
             <span>Mario 64 really fun</span>
             <br></br>
             <br></br>
@@ -46,19 +94,21 @@ const Games = (props) => {
         <div className="games-features1">
           <div className="games-container04">
             <div className="games-container05">
-              <h5 className="games-text09 Headline5">Coming soon</h5>
-              <span className="games-text10">
-                <span>Just wait this game still working</span>
-                <br></br>
-                <span>on it.</span>
-              </span>
+              <h5 className="games-text13 Headline5">Coming soon</h5>
             </div>
             <div className="games-container06">
-              <img
-                src="/playground_assets/01.svg"
-                alt="image"
-                className="games-image1"
-              />
+              <a
+                href="https://among-us-online-fan-remake.1tim.repl.co"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="games-link4"
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/01.svg"
+                  className="games-image4"
+                />
+              </a>
               <h5 className="games-text14 Headline5">Among us</h5>
               <span className="games-text15">
                 I present amongus! Like among us? Then try this to all fans.
@@ -75,26 +125,67 @@ const Games = (props) => {
             </span>
           </div>
           <div className="games-container08">
-            <h5 className="games-text22 Headline5">Coming soon</h5>
+            <h5 className="games-text22">Sword Battle</h5>
             <span className="games-text23">
-              <span>is gonna be a good game</span>
+              <span>Fun game try it out if havent </span>
+              <br></br>
+              <span>enjoy</span>
               <br></br>
             </span>
           </div>
         </div>
         <div className="games-container09">
-          <h5 className="games-text26 Headline5">Minecraft</h5>
-          <span className="games-text27">
+          <h5 className="games-text28 Headline5">Minecraft</h5>
+          <span className="games-text29">
             <span>Cant play minecraft then try this</span>
             <br></br>
             <br></br>
           </span>
         </div>
-        <img
-          src="/playground_assets/03.svg"
-          alt="image"
-          className="games-image2"
-        />
+        <div className="games-container10">
+          <h5 className="games-text33">1v1.lol</h5>
+          <span className="games-text34">
+            <span>battle random people and friend </span>
+            <br></br>
+            <span> build it out, like sniping </span>
+            <br></br>
+            <span>then snipe it out</span>
+            <br></br>
+          </span>
+        </div>
+        <div className="games-container11">
+          <h5 className="games-text41">Run 3</h5>
+          <span className="games-text42">
+            <span>Unlock all Charecters </span>
+            <br></br>
+            <span>have fun</span>
+            <br></br>
+          </span>
+        </div>
+        <a
+          href="https://hyper-network.me"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="games-link5"
+        >
+          <img
+            alt="image"
+            src="/playground_assets/03.svg"
+            className="games-image5"
+          />
+        </a>
+        <a
+          href="https://sword-io-game.herokuapp.com"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="games-link6"
+        >
+          <img
+            alt="image"
+            src="/playground_assets/03.svg"
+            className="games-image6"
+          />
+        </a>
       </div>
     </div>
   )
