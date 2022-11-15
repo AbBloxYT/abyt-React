@@ -65,7 +65,7 @@ const Games = (props) => {
         </a>
         <div className="games-container03">
           <a
-            href="https://28klotlucas2.github.io/Mario64webgl/"
+            href="https://1v1lol.56306.repl.co"
             target="_blank"
             rel="noreferrer noopener"
             className="games-link2"
@@ -77,7 +77,7 @@ const Games = (props) => {
             />
           </a>
           <a
-            href="https://1v1lol.56306.repl.co"
+            href="https://28klotlucas2.github.io/Mario64webgl/"
             target="_blank"
             rel="noreferrer noopener"
             className="games-link3"

@@ -50,8 +50,8 @@
   display: contents;
 }
 .games-image {
-  top: 605px;
-  left: 831px;
+  top: 633px;
+  left: 980px;
   width: 59px;
   height: 53px;
   position: absolute;
@@ -62,8 +62,8 @@
   display: contents;
 }
 .games-image1 {
-  top: 921px;
-  left: 321px;
+  top: 920px;
+  left: 356px;
   width: 59px;
   height: 53px;
   position: absolute;
@@ -71,8 +71,8 @@
   text-decoration: none;
 }
 .games-container03 {
-  top: 608px;
-  left: 185px;
+  top: 688px;
+  left: 220px;
   width: 320px;
   display: flex;
   position: absolute;
@@ -83,8 +83,11 @@
   display: contents;
 }
 .games-image2 {
+  right: -517px;
   width: 58px;
+  bottom: -535px;
   height: 63px;
+  position: absolute;
   object-fit: cover;
   text-decoration: none;
 }
@@ -92,9 +95,9 @@
   display: contents;
 }
 .games-image3 {
-  right: -395px;
+  top: -72px;
+  left: 136px;
   width: 58px;
-  bottom: -448px;
   height: 63px;
   position: absolute;
   object-fit: cover;
@@ -143,8 +146,8 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .games-container06 {
-  top: -52px;
-  right: -656px;
+  top: -67px;
+  right: -807px;
   width: 320px;
   display: flex;
   position: absolute;
@@ -172,9 +175,9 @@
   font-weight: 400;
 }
 .games-container07 {
-  right: -665px;
+  right: -812px;
   width: 320px;
-  bottom: -237px;
+  bottom: -256px;
   display: flex;
   position: absolute;
   align-items: center;
@@ -188,9 +191,9 @@
   text-align: center;
 }
 .games-container08 {
-  right: -666px;
+  right: -831px;
   width: 320px;
-  bottom: -547px;
+  bottom: -554px;
   display: flex;
   position: absolute;
   align-items: center;
@@ -205,8 +208,8 @@
   text-align: center;
 }
 .games-container09 {
-  top: 360px;
-  left: 188px;
+  top: 338px;
+  left: 226px;
   width: 320px;
   display: flex;
   position: absolute;
@@ -227,8 +230,8 @@
   text-align: center;
 }
 .games-container10 {
-  top: 1250px;
-  left: 708px;
+  top: 1333px;
+  left: 870px;
   width: 320px;
   display: flex;
   position: absolute;
@@ -244,8 +247,8 @@
   text-align: center;
 }
 .games-container11 {
-  top: 972px;
-  left: 192px;
+  top: 977px;
+  left: 224px;
   width: 320px;
   display: flex;
   position: absolute;
@@ -264,8 +267,8 @@
   display: contents;
 }
 .games-image5 {
-  top: 301px;
-  left: 316px;
+  top: 275px;
+  left: 361px;
   width: 64px;
   height: 58px;
   position: absolute;
@@ -276,8 +279,8 @@
   display: contents;
 }
 .games-image6 {
-  top: 913px;
-  left: 828px;
+  top: 914px;
+  left: 993px;
   width: 64px;
   height: 58px;
   position: absolute;
