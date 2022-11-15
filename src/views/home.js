@@ -395,9 +395,14 @@ const Home = (props) => {
             <span>Update Feed</span>
             <br></br>
             <br></br>
-            <span>
-              Rencenty added some new game, 1v1lol and sword battle.io
+            <span className="home-text64">
+              Rencenty added some new game, 1v1lol and sword battle.io and a new
+              page to seperate the games anyways enjoy PeePs   and subcribe to
+              my channel AbBloxYT
             </span>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
           </h2>
           <img
@@ -405,7 +410,7 @@ const Home = (props) => {
             src="/playground_assets/purple-circle.svg"
             className="home-image09"
           />
-          <span className="home-text66">
+          <span className="home-text69">
             <br></br>
             <br></br>
           </span>
@@ -430,7 +435,7 @@ const Home = (props) => {
             </span>
             <br></br>
           </h2>
-          <span className="home-text72">
+          <span className="home-text75">
             <br></br>
             <br></br>
           </span>
