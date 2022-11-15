@@ -398,8 +398,25 @@ const Home = (props) => {
             <span className="home-text64">
               Rencenty added some new game, 1v1lol and sword battle.io and a new
               page to seperate the games anyways enjoy PeePs   and subcribe to
-              my channel AbBloxYT
+              my channel AbBloxYT And check out my freind&apos;s web (spolier
+              its better than mine) 
             </span>
+            <a
+              href="https://guzuv.ml/"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link10"
+            >
+              https://guzuv.ml/
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </a>
+            <span>have fun</span>
+            <br></br>
+            <span> </span>
             <br></br>
             <br></br>
             <br></br>
@@ -410,7 +427,7 @@ const Home = (props) => {
             src="/playground_assets/purple-circle.svg"
             className="home-image09"
           />
-          <span className="home-text69">
+          <span className="home-text72">
             <br></br>
             <br></br>
           </span>
@@ -435,7 +452,7 @@ const Home = (props) => {
             </span>
             <br></br>
           </h2>
-          <span className="home-text75">
+          <span className="home-text78">
             <br></br>
             <br></br>
           </span>
