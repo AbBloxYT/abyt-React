@@ -29,11 +29,6 @@ const Home = (props) => {
       <div data-role="Header" className="home-header-container">
         <header className="home-header">
           <div className="home-logo"></div>
-          <img
-            alt="image"
-            src="/playground_assets/sdfghj-200w.png"
-            className="home-image"
-          />
           <Link to="/games" className="home-navlink">
             Games
           </Link>
@@ -85,6 +80,11 @@ const Home = (props) => {
               <path d="M810.667 128h-597.333c-47.061 0-85.333 38.272-85.333 85.333s38.272 85.333 85.333 85.333h597.333c47.061 0 85.333-38.272 85.333-85.333s-38.272-85.333-85.333-85.333z"></path>
             </svg>
           </div>
+          <img
+            src="/playground_assets/untitled%20design1-200h.png"
+            alt="image"
+            className="home-image"
+          />
         </header>
         <div data-role="MobileMenu" className="home-mobile-menu">
           <div className="home-top">
@@ -173,7 +173,6 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-main">
-        <div className="home-blur-background"></div>
         <img
           alt="image"
           src="/playground_assets/turquoise-circle.svg"
@@ -221,12 +220,12 @@ const Home = (props) => {
             <div className="home-container14">
               <div className="home-container15"></div>
             </div>
+            <img
+              src="/playground_assets/de-600h.jpg"
+              alt="image"
+              className="home-image02"
+            />
           </div>
-          <img
-            alt="image"
-            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700h.png"
-            className="home-image02"
-          />
         </div>
       </div>
       <div className="home-container16">
@@ -238,18 +237,7 @@ const Home = (props) => {
         </div>
         <h2 className="home-text13">Our Goals</h2>
         <div className="home-feature1">
-          <div className="home-container20">
-            <StatsCard
-              number="10,000+"
-              image_src="/playground_assets/01.svg"
-              description="People play daily"
-            ></StatsCard>
-            <StatsCard
-              number="2 Milion"
-              image_src="/playground_assets/04.svg"
-              description="Users"
-            ></StatsCard>
-          </div>
+          <div className="home-container20"></div>
           <div className="home-container21"></div>
           <div className="home-container22">
             <img
@@ -266,7 +254,19 @@ const Home = (props) => {
       </div>
       <div className="home-testimonials">
         <div className="home-container23">
-          <div className="home-container24">
+          <StatsCard
+            number="2 Milion"
+            image_src="/playground_assets/04.svg"
+            description="Users"
+          ></StatsCard>
+          <StatsCard
+            number="10,000+"
+            image_src="/playground_assets/01.svg"
+            description="People play daily"
+          ></StatsCard>
+        </div>
+        <div className="home-container24">
+          <div className="home-container25">
             <img
               alt="image"
               src="/playground_assets/quote-mark.svg"
@@ -274,15 +274,15 @@ const Home = (props) => {
             />
             <h1 className="home-text15 Headline2">People&apos;s reviews</h1>
             <span>these peoples gave this rating!</span>
-            <div className="home-container25">
-              <div className="home-container26">
-                <div className="home-container27">
+            <div className="home-container26">
+              <div className="home-container27">
+                <div className="home-container28">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
                     className="home-image05"
                   />
-                  <div className="home-container28">
+                  <div className="home-container29">
                     <span className="home-text17">
                       <span className="Lead1">
                         comment on my videos to get a chance of a shoutout here!
@@ -326,11 +326,11 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container29">
-            <div className="home-container30">
-              <div className="home-container31">
-                <div className="home-container32">
-                  <div className="home-container33">
+          <div className="home-container30">
+            <div className="home-container31">
+              <div className="home-container32">
+                <div className="home-container33">
+                  <div className="home-container34">
                     <img
                       alt="image"
                       src="https://guzuv.ml/playground_assets/catpic.png"
@@ -353,20 +353,20 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container34">
-              <div className="home-container35">
+            <div className="home-container35">
+              <div className="home-container36">
                 <img
                   alt="illya image"
                   src="https://yt3.ggpht.com/yGQFVDKehE6fikUhodoJhEA7wP-X63DH-8j9DkvXlecAUjeLXs2PQQ8uRTBL1nWUHNIxtRMLVQ=s88-c-k-c0x00ffffff-no-rj"
                   className="home-image07"
                 />
-                <div className="home-container36">
+                <div className="home-container37">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
                     className="home-image08"
                   />
-                  <div className="home-container37">
+                  <div className="home-container38">
                     <span className="home-text54">
                       <span className="Lead1">is very ok, is epic!</span>
                       <br></br>
@@ -390,7 +390,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-feature2">
-        <div className="home-container38">
+        <div className="home-container39">
           <h2 className="home-text60">
             <span>Update Feed</span>
             <br></br>
@@ -445,8 +445,8 @@ const Home = (props) => {
           image_src="/playground_assets/iphonex-1100w.png"
           className="home-image11"
         />
-        <div className="home-container39">
-          <h2>
+        <div className="home-container40">
+          <h2 className="home-text75">
             <span className="Headline2">
               Enter the world of Gamers and HAVE FUN!
             </span>

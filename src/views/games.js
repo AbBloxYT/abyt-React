@@ -32,11 +32,13 @@ const Games = (props) => {
           </h2>
         </div>
         <span className="games-text03">
-          <span>
+          <span className="games-text04">
             Yo Peeps I just updated with new Games and more HAVE FUN PEEPS!
           </span>
-          <br></br>
-          <span>(Click on the image above the Titles to Play)</span>
+          <br className="games-text05"></br>
+          <span className="games-text06">
+            (Click on the image above the Titles to Play)
+          </span>
           <br></br>
         </span>
         <a
@@ -88,7 +90,7 @@ const Games = (props) => {
               className="games-image3"
             />
           </a>
-          <h5 className="games-text08 Headline5">Mario 64</h5>
+          <h5 className="games-text08">Mario 64</h5>
           <span className="games-text09">
             <span>Mario 64 really fun</span>
             <br></br>
@@ -120,7 +122,7 @@ const Games = (props) => {
             </div>
           </div>
           <div className="games-container07">
-            <h5 className="games-text16 Headline5">G.B.A.</h5>
+            <h5 className="games-text16">G.B.A.</h5>
             <span className="games-text17">
               <span>Game boy advanced</span>
               <br></br>
@@ -129,8 +131,18 @@ const Games = (props) => {
             </span>
           </div>
           <div className="games-container08">
-            <h5 className="games-text22">Sword Battle</h5>
-            <span className="games-text23">
+            <h5 className="games-text22">
+              <span className="games-text23">
+                Sword
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="games-text24">Battle</span>
+            </h5>
+            <span className="games-text25">
               <span>Fun game try it out if havent </span>
               <br></br>
               <span>enjoy</span>
@@ -139,16 +151,16 @@ const Games = (props) => {
           </div>
         </div>
         <div className="games-container09">
-          <h5 className="games-text28">Minecraft</h5>
-          <span className="games-text29">
+          <h5 className="games-text30">Minecraft</h5>
+          <span className="games-text31">
             <span>Cant play minecraft then try this</span>
             <br></br>
             <br></br>
           </span>
         </div>
         <div className="games-container10">
-          <h5 className="games-text33">1v1.lol</h5>
-          <span className="games-text34">
+          <h5 className="games-text35">1v1.lol</h5>
+          <span className="games-text36">
             <span>battle random people and friend </span>
             <br></br>
             <span> build it out, like sniping </span>
@@ -158,8 +170,8 @@ const Games = (props) => {
           </span>
         </div>
         <div className="games-container11">
-          <h5 className="games-text41">Run 3</h5>
-          <span className="games-text42">
+          <h5 className="games-text43">Run 3</h5>
+          <span className="games-text44">
             <span>Unlock all Charecters </span>
             <br></br>
             <span>have fun</span>
@@ -167,8 +179,8 @@ const Games = (props) => {
           </span>
         </div>
         <div className="games-container12">
-          <h5 className="games-text47">Crossy frog</h5>
-          <span className="games-text48">
+          <h5 className="games-text49">Crossy frog</h5>
+          <span className="games-text50">
             <span>Unlock all Charecters </span>
             <br></br>
             <span>have fun,  thanks bert for the </span>
