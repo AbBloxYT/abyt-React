@@ -173,6 +173,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-main">
+        <div className="home-blur-background"></div>
         <img
           alt="image"
           src="/playground_assets/turquoise-circle.svg"
@@ -445,7 +446,7 @@ const Home = (props) => {
           className="home-image11"
         />
         <div className="home-container39">
-          <h2 className="home-text75">
+          <h2>
             <span className="Headline2">
               Enter the world of Gamers and HAVE FUN!
             </span>
