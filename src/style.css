@@ -1,4 +1,9 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+ 
+ :root {
   --dl-color-gray-300: #d9dbe1ff;
   --dl-color-gray-700: #969babff;
   --dl-color-gray-800: #474a57ff;

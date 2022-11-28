@@ -166,6 +166,17 @@ const Games = (props) => {
             <br></br>
           </span>
         </div>
+        <div className="games-container12">
+          <h5 className="games-text47">Crossy frog</h5>
+          <span className="games-text48">
+            <span>Unlock all Charecters </span>
+            <br></br>
+            <span>have fun,  thanks bert for the </span>
+            <br></br>
+            <span>Amazing idea BERT.</span>
+            <br></br>
+          </span>
+        </div>
         <a
           href="https://hyper-network.me"
           target="_blank"
@@ -188,6 +199,18 @@ const Games = (props) => {
             alt="image"
             src="/playground_assets/03.svg"
             className="games-image6"
+          />
+        </a>
+        <a
+          href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="games-link7"
+        >
+          <img
+            alt="image"
+            src="/playground_assets/03.svg"
+            className="games-image7"
           />
         </a>
       </div>

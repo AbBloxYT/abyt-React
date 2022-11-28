@@ -263,6 +263,23 @@
 .games-text42 {
   text-align: center;
 }
+.games-container12 {
+  top: 1323px;
+  left: 197px;
+  width: 320px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.games-text47 {
+  font-size: 24px;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.games-text48 {
+  text-align: center;
+}
 .games-link5 {
   display: contents;
 }
@@ -281,6 +298,18 @@
 .games-image6 {
   top: 914px;
   left: 993px;
+  width: 64px;
+  height: 58px;
+  position: absolute;
+  object-fit: cover;
+  text-decoration: none;
+}
+.games-link7 {
+  display: contents;
+}
+.games-image7 {
+  top: 1264px;
+  left: 324px;
   width: 64px;
   height: 58px;
   position: absolute;
