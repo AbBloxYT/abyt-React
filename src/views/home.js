@@ -196,41 +196,50 @@ const Home = (props) => {
         <div className="home-hero">
           <div className="home-container11">
             <div className="home-container12">
-              <div className="home-container13"></div>
+              <h1 className="home-text06">
+                <span>
+                  Epic Gaming
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+                <span>Montage!</span>
+              </h1>
             </div>
           </div>
-          <div className="home-container14">
-            <div className="home-container15">
-              <div className="home-container16"></div>
+          <div className="home-container13">
+            <div className="home-container14">
+              <div className="home-container15"></div>
             </div>
           </div>
           <img
             alt="image"
-            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700h.png"
+            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700w.png"
             className="home-image02"
           />
         </div>
       </div>
-      <div className="home-container17">
-        <div className="home-container18"></div>
+      <div className="home-container16">
+        <div className="home-container17"></div>
       </div>
       <div className="home-achievements">
-        <div className="home-container19">
-          <div className="home-container20"></div>
+        <div className="home-container18">
+          <div className="home-container19"></div>
         </div>
+        <h2 className="home-text10">Our Goals</h2>
         <div className="home-feature1">
-          <div className="home-container21">
-            <div className="home-container22"></div>
-          </div>
-          <h2 className="home-text06">Our Goals</h2>
-          <div className="home-container23"></div>
-          <div className="home-container24">
+          <div className="home-container20"></div>
+          <div className="home-container21"></div>
+          <div className="home-container22">
             <img
               alt="image"
               src="/playground_assets/sdfghjfdsdfgh-200h.png"
               className="home-image03"
             />
-            <span className="home-text07">
+            <span className="home-text11">
               Follow me on Roblox and Support me by Subscribeing to my my
               Channell it will help a ton and its Free Thats all have fun!
             </span>
@@ -238,7 +247,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-testimonials">
-        <div className="home-container25">
+        <div className="home-container23">
           <StatsCard
             number="2 Milion"
             image_src="/playground_assets/04.svg"
@@ -250,25 +259,25 @@ const Home = (props) => {
             description="People play daily"
           ></StatsCard>
         </div>
-        <div className="home-container26">
-          <div className="home-container27">
+        <div className="home-container24">
+          <div className="home-container25">
             <img
               alt="image"
               src="/playground_assets/quote-mark.svg"
               className="home-image04"
             />
-            <h1 className="home-text08 Headline2">People&apos;s reviews</h1>
+            <h1 className="home-text12 Headline2">People&apos;s reviews</h1>
             <span>these peoples gave this rating!</span>
-            <div className="home-container28">
-              <div className="home-container29">
-                <div className="home-container30">
+            <div className="home-container26">
+              <div className="home-container27">
+                <div className="home-container28">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
                     className="home-image05"
                   />
-                  <div className="home-container31">
-                    <span className="home-text10">
+                  <div className="home-container29">
+                    <span className="home-text14">
                       <span className="Lead1">
                         comment on my videos to get a chance of a shoutout here!
                       </span>
@@ -311,21 +320,21 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container32">
-            <div className="home-container33">
-              <div className="home-container34">
-                <div className="home-container35">
-                  <div className="home-container36">
+          <div className="home-container30">
+            <div className="home-container31">
+              <div className="home-container32">
+                <div className="home-container33">
+                  <div className="home-container34">
                     <img
                       alt="image"
                       src="https://guzuv.ml/playground_assets/catpic.png"
                       className="home-image06"
                     />
-                    <span className="home-text45 Lead1">
+                    <span className="home-text49 Lead1">
                       &quot;it&apos;s a bit rough, but overall cool website!
                       7/12.&quot;
                     </span>
-                    <span className="home-text46 Subtitle1">Guzuv</span>
+                    <span className="home-text50 Subtitle1">Guzuv</span>
                     <a
                       href="https://guzuv.ml/"
                       target="_blank"
@@ -338,21 +347,21 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container37">
-              <div className="home-container38">
+            <div className="home-container35">
+              <div className="home-container36">
                 <img
                   alt="illya image"
                   src="https://yt3.ggpht.com/yGQFVDKehE6fikUhodoJhEA7wP-X63DH-8j9DkvXlecAUjeLXs2PQQ8uRTBL1nWUHNIxtRMLVQ=s88-c-k-c0x00ffffff-no-rj"
                   className="home-image07"
                 />
-                <div className="home-container39">
+                <div className="home-container37">
                   <img
                     alt="image"
                     src="/playground_assets/quote-mark.svg"
                     className="home-image08"
                   />
-                  <div className="home-container40">
-                    <span className="home-text47">
+                  <div className="home-container38">
+                    <span className="home-text51">
                       <span className="Lead1">is very ok, is epic!</span>
                       <br></br>
                       <span>4.5/5</span>
@@ -375,12 +384,12 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-feature2">
-        <div className="home-container41">
-          <h2 className="home-text53">
+        <div className="home-container39">
+          <h2 className="home-text57">
             <span>Update Feed</span>
             <br></br>
             <br></br>
-            <span className="home-text57">
+            <span className="home-text61">
               Rencenty added some new game, 1v1lol and sword battle.io and a new
               page to seperate the games anyways enjoy PeePs   and subcribe to
               my channel AbBloxYT And check out my freind&apos;s web (spolier
@@ -412,7 +421,7 @@ const Home = (props) => {
             src="/playground_assets/purple-circle.svg"
             className="home-image09"
           />
-          <span className="home-text65">
+          <span className="home-text69">
             <br></br>
             <br></br>
           </span>
@@ -430,14 +439,14 @@ const Home = (props) => {
           image_src="/playground_assets/iphonex-1100w.png"
           className="home-image11"
         />
-        <div className="home-container42">
-          <h2 className="home-text68">
+        <div className="home-container40">
+          <h2 className="home-text72">
             <span className="Headline2">
               Enter the world of Gamers and HAVE FUN!
             </span>
             <br></br>
           </h2>
-          <span className="home-text71">
+          <span className="home-text75">
             <br></br>
             <br></br>
           </span>
