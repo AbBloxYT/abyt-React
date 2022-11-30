@@ -458,10 +458,10 @@
   justify-content: center;
 }
 .home-image02 {
-  top: -357px;
-  left: -648px;
-  width: 700px;
-  height: 583px;
+  top: 121px;
+  right: 6px;
+  width: 655px;
+  height: 497px;
   position: absolute;
   object-fit: cover;
 }
@@ -510,6 +510,7 @@
   justify-content: center;
 }
 .home-text13 {
+  color: #f8f9fd;
   font-size: 45px;
 }
 .home-feature1 {
@@ -555,6 +556,7 @@
   object-fit: cover;
 }
 .home-text14 {
+  color: #ffffff;
   max-width: 400px;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-doubleunit);

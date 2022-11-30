@@ -81,8 +81,8 @@ const Home = (props) => {
             </svg>
           </div>
           <img
-            src="/playground_assets/untitled%20design1-200h.png"
             alt="image"
+            src="/playground_assets/untitled%20design1-200h.png"
             className="home-image"
           />
         </header>
@@ -220,12 +220,12 @@ const Home = (props) => {
             <div className="home-container14">
               <div className="home-container15"></div>
             </div>
-            <img
-              src="/playground_assets/de-600h.jpg"
-              alt="image"
-              className="home-image02"
-            />
           </div>
+          <img
+            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700w.png"
+            alt="image"
+            className="home-image02"
+          />
         </div>
       </div>
       <div className="home-container16">
