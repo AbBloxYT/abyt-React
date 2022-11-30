@@ -189,8 +189,16 @@ const Games = (props) => {
             <br></br>
           </span>
         </div>
+        <div className="games-container13">
+          <h5 className="games-text57">iron snout</h5>
+          <span className="games-text58">
+            <span>dont let the wolf touch you</span>
+            <br></br>
+            <br></br>
+          </span>
+        </div>
         <a
-          href="https://hyper-network.me"
+          href="https://precisionclient.vercel.app/"
           target="_blank"
           rel="noreferrer noopener"
           className="games-link5"
@@ -202,7 +210,7 @@ const Games = (props) => {
           />
         </a>
         <a
-          href="https://sword-io-game.herokuapp.com"
+          href="https://s3.eu-central-1.amazonaws.com/snoutupgames/ironsnout/index.html"
           target="_blank"
           rel="noreferrer noopener"
           className="games-link6"
@@ -214,7 +222,7 @@ const Games = (props) => {
           />
         </a>
         <a
-          href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml"
+          href="https://sword-io-game.herokuapp.com"
           target="_blank"
           rel="noreferrer noopener"
           className="games-link7"
@@ -223,6 +231,18 @@ const Games = (props) => {
             alt="image"
             src="/playground_assets/03.svg"
             className="games-image7"
+          />
+        </a>
+        <a
+          href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s011h5fk/crossy-road.xml"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="games-link8"
+        >
+          <img
+            alt="image"
+            src="/playground_assets/03.svg"
+            className="games-image8"
           />
         </a>
       </div>

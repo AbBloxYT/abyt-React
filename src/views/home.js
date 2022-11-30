@@ -222,8 +222,8 @@ const Home = (props) => {
             </div>
           </div>
           <img
-            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700w.png"
             alt="image"
+            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700w.png"
             className="home-image02"
           />
         </div>
