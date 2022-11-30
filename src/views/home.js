@@ -199,18 +199,6 @@ const Home = (props) => {
               <div className="home-container13"></div>
             </div>
           </div>
-          <h1 className="home-text06">
-            <span>
-              Epic Gaming
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <br></br>
-            <span>Montage!</span>
-          </h1>
           <div className="home-container14">
             <div className="home-container15">
               <div className="home-container16"></div>
@@ -218,7 +206,7 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700w.png"
+            src="/playground_assets/minecraft-png-transparent-minecraft-images-pluspng-21-700h.png"
             className="home-image02"
           />
         </div>
@@ -234,7 +222,7 @@ const Home = (props) => {
           <div className="home-container21">
             <div className="home-container22"></div>
           </div>
-          <h2 className="home-text10">Our Goals</h2>
+          <h2 className="home-text06">Our Goals</h2>
           <div className="home-container23"></div>
           <div className="home-container24">
             <img
@@ -242,7 +230,7 @@ const Home = (props) => {
               src="/playground_assets/sdfghjfdsdfgh-200h.png"
               className="home-image03"
             />
-            <span className="home-text11">
+            <span className="home-text07">
               Follow me on Roblox and Support me by Subscribeing to my my
               Channell it will help a ton and its Free Thats all have fun!
             </span>
@@ -269,7 +257,7 @@ const Home = (props) => {
               src="/playground_assets/quote-mark.svg"
               className="home-image04"
             />
-            <h1 className="home-text12 Headline2">People&apos;s reviews</h1>
+            <h1 className="home-text08 Headline2">People&apos;s reviews</h1>
             <span>these peoples gave this rating!</span>
             <div className="home-container28">
               <div className="home-container29">
@@ -280,7 +268,7 @@ const Home = (props) => {
                     className="home-image05"
                   />
                   <div className="home-container31">
-                    <span className="home-text14">
+                    <span className="home-text10">
                       <span className="Lead1">
                         comment on my videos to get a chance of a shoutout here!
                       </span>
@@ -333,11 +321,11 @@ const Home = (props) => {
                       src="https://guzuv.ml/playground_assets/catpic.png"
                       className="home-image06"
                     />
-                    <span className="home-text49 Lead1">
+                    <span className="home-text45 Lead1">
                       &quot;it&apos;s a bit rough, but overall cool website!
                       7/12.&quot;
                     </span>
-                    <span className="home-text50 Subtitle1">Guzuv</span>
+                    <span className="home-text46 Subtitle1">Guzuv</span>
                     <a
                       href="https://guzuv.ml/"
                       target="_blank"
@@ -364,7 +352,7 @@ const Home = (props) => {
                     className="home-image08"
                   />
                   <div className="home-container40">
-                    <span className="home-text51">
+                    <span className="home-text47">
                       <span className="Lead1">is very ok, is epic!</span>
                       <br></br>
                       <span>4.5/5</span>
@@ -388,11 +376,11 @@ const Home = (props) => {
       </div>
       <div className="home-feature2">
         <div className="home-container41">
-          <h2 className="home-text57">
+          <h2 className="home-text53">
             <span>Update Feed</span>
             <br></br>
             <br></br>
-            <span className="home-text61">
+            <span className="home-text57">
               Rencenty added some new game, 1v1lol and sword battle.io and a new
               page to seperate the games anyways enjoy PeePs   and subcribe to
               my channel AbBloxYT And check out my freind&apos;s web (spolier
@@ -424,7 +412,7 @@ const Home = (props) => {
             src="/playground_assets/purple-circle.svg"
             className="home-image09"
           />
-          <span className="home-text69">
+          <span className="home-text65">
             <br></br>
             <br></br>
           </span>
@@ -443,13 +431,13 @@ const Home = (props) => {
           className="home-image11"
         />
         <div className="home-container42">
-          <h2 className="home-text72">
+          <h2 className="home-text68">
             <span className="Headline2">
               Enter the world of Gamers and HAVE FUN!
             </span>
             <br></br>
           </h2>
-          <span className="home-text75">
+          <span className="home-text71">
             <br></br>
             <br></br>
           </span>
