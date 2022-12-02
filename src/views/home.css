@@ -382,10 +382,10 @@
   justify-content: space-between;
 }
 .home-navlink1 {
-  top: 563px;
-  left: 45px;
+  left: 43px;
   color: #ffffff;
   width: 25%;
+  bottom: 87px;
   height: 110px;
   margin: auto;
   display: flex;
