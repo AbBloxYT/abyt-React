@@ -194,7 +194,9 @@ const Home = (props) => {
           className="home-right"
         />
         <div className="home-hero">
-          <button className="home-button button">Play Games</button>
+          <Link to="/games" className="home-navlink1 button">
+            Play Games
+          </Link>
           <div className="home-container11">
             <div className="home-container12"></div>
           </div>
