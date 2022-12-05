@@ -382,16 +382,17 @@
   justify-content: space-between;
 }
 .home-navlink1 {
-  left: 43px;
+  left: 16px;
   color: #ffffff;
-  width: 25%;
-  bottom: 87px;
-  height: 110px;
+  width: 261px;
+  bottom: -2px;
+  height: 89px;
   margin: auto;
   display: flex;
   z-index: 100;
   position: absolute;
   font-size: 35px;
+  margin-top: auto;
   align-items: center;
   border-style: inset;
   border-radius: 45px;
